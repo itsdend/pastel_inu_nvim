@@ -14,10 +14,10 @@ If you want to stay on nvim 0.7, either disable the integration or pin catppucci
 
 	local colors = { -- Reference: https://github.com/nvim-treesitter/nvim-treesitter/blob/master/CONTRIBUTING.md
 		-- Identifiers
-		["@variable"] = { fg = C.text, style = O.styles.variables or {} }, -- Any variable name that does not have another highlight.
-		["@variable.builtin"] = { fg = C.red, style = O.styles.properties or {} }, -- Variable names that are defined by the languages, like this or self.
-		["@variable.parameter"] = { fg = C.maroon, style = O.styles.variables or {} }, -- For parameters of a function.
-		["@variable.member"] = { fg = C.lavender }, -- For fields.
+		["@variable"] = { fg = C.flamingo, style = O.styles.variables or {} }, -- Any variable name that does not have another highlight.
+		["@variable.builtin"] = { fg = C.flamingo, style = O.styles.properties or {} }, -- Variable names that are defined by the languages, like this or self.
+		["@variable.parameter"] = { fg = C.flamingo, style = O.styles.variables or {} }, -- For parameters of a function.
+		["@variable.member"] = { fg = C.flamingo }, -- For fields.
 
 		["@constant"] = { link = "Constant" }, -- For constants
 		["@constant.builtin"] = { fg = C.peach, style = O.styles.keywords or {} }, -- For constant that are built in the language: nil in Lua.
