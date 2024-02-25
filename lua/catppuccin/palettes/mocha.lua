@@ -2,7 +2,7 @@ return {
 	rosewater = "#f5e0dc",
 	flamingo = "#fc50b4", --variable
 	pink = "#f5c2e7",
-	mauve = "#cba6f7",
+	mauve = "#FDFD97",	--keywords
 	red = "#f38ba8",
 	maroon = "#eba0ac",
 	peach = "#4fc8b7", --atom
@@ -13,7 +13,7 @@ return {
 	sapphire = "#74c7ec",
 	blue = "#7ac3ff", --function
 	lavender = "#b4befe",
-	text = "#fc50b4",
+	text = "#eb87b6", --foreground
 	subtext1 = "#bac2de",
 	subtext0 = "#a6adc8",
 	overlay2 = "#9399b2",
