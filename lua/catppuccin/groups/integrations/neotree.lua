@@ -16,11 +16,11 @@ function M.get()
 
 		NeoTreeGitAdded = { fg = C.green },
 		NeoTreeGitConflict = { fg = C.red },
-		NeoTreeGitDeleted = { fg = C.red },
+		NeoTreeGitDeleted = { fg = C.rosewater },
 		NeoTreeGitIgnored = { fg = C.overlay0 },
 		NeoTreeGitModified = { fg = C.yellow },
 		NeoTreeGitUnstaged = { fg = C.red },
-		NeoTreeGitUntracked = { fg = C.mauve },
+		NeoTreeGitUntracked = { fg = C.lavender },
 		NeoTreeGitStaged = { fg = C.green },
 
 		NeoTreeFloatBorder = { link = "FloatBorder" },
