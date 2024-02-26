@@ -20,9 +20,9 @@ function M.get()
 		SignColumn = { fg = C.surface1 }, -- column where |signs| are displayed
 		SignColumnSB = { bg = C.crust, fg = C.surface1 }, -- column where |signs| are displayed
 		Substitute = { bg = C.surface1, fg = U.vary_color({ latte = C.red }, C.pink) }, -- |:substitute| replacement text highlighting
-		LineNr = { fg = C.blue }, -- Line number for ":number" and ":#" commands, and when 'number' or 'relativenumber' option is set.
+		LineNr = { fg = C.lavender }, -- Line number for ":number" and ":#" commands, and when 'number' or 'relativenumber' option is set.
 		CursorLineNr = { fg = C.pink }, -- Like LineNr when 'cursorline' or 'relativenumber' is set for the cursor line. highlights the number in numberline.
-		MatchParen = { fg = C.peach, bg = C.surface1, style = { "bold" } }, -- The character under the cursor or just before it, if it is a paired bracket, and its match. |pi_paren.txt|
+		MatchParen = { fg = C.lavender, bg = C.text, style = { "bold" } }, -- The character under the cursor or just before it, if it is a paired bracket, and its match. |pi_paren.txt|
 		ModeMsg = { fg = C.text, style = { "bold" } }, -- 'showmode' message (e.g., "-- INSERT -- ")
 		-- MsgArea = { fg = C.text }, -- Area for messages and cmdline, don't set this highlight because of https://github.com/neovim/neovim/issues/17832
 		MsgSeparator = {}, -- Separator for scrolled messages, `msgsep` flag of 'display'

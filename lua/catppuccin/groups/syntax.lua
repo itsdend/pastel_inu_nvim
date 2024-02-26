@@ -20,7 +20,7 @@ function M.get()
 		Keyword = { fg = C.mauve, style = O.styles.keywords or {} }, --  any other keyword
 		Exception = { fg = C.mauve, style = O.styles.keywords or {} }, --  try, catch, throw
 
-		PreProc = { fg = C.pink }, -- (preferred) generic Preprocessor
+		PreProc = { fg = C.lavender }, -- (preferred) generic Preprocessor
 		Include = { fg = C.mauve, style = O.styles.keywords or {} }, --  preprocessor #include
 		Define = { link = "PreProc" }, -- preprocessor #define
 		Macro = { fg = C.mauve }, -- same as Define
@@ -29,7 +29,7 @@ function M.get()
 		StorageClass = { fg = C.lavender }, -- static, register, volatile, etc.
 		Structure = { fg = C.yellow }, --  struct, union, enum, etc.
 		Special = { fg = C.pink }, -- (preferred) any special symbol
-		Type = { fg = C.yellow, style = O.styles.types or {} }, -- (preferred) int, long, char, etc.
+		Type = { fg = C.lavender, style = O.styles.types or {} }, -- (preferred) int, long, char, etc.
 		Typedef = { link = "Type" }, --  A typedef
 		SpecialChar = { link = "Special" }, -- special character in a constant
 		Tag = { fg = C.lavender, style = { "bold" } }, -- you can use CTRL-] on this
