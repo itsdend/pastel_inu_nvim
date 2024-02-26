@@ -12,8 +12,8 @@ return function(flavour)
 	}
 
 	catppuccin.insert = {
-		a = { bg = C.green, fg = C.base, gui = "bold" },
-		b = { bg = C.surface0, fg = C.green },
+		a = { bg = C.pink, fg = C.base, gui = "bold" },
+		b = { bg = C.surface0, fg = C.pink },
 	}
 
 	catppuccin.terminal = {
@@ -22,17 +22,17 @@ return function(flavour)
 	}
 
 	catppuccin.command = {
-		a = { bg = C.peach, fg = C.base, gui = "bold" },
+		a = { bg = C.maroon, fg = C.base, gui = "bold" },
 		b = { bg = C.surface0, fg = C.peach },
 	}
 
 	catppuccin.visual = {
-		a = { bg = C.mauve, fg = C.base, gui = "bold" },
+		a = { bg = C.lavender, fg = C.base, gui = "bold" },
 		b = { bg = C.surface0, fg = C.mauve },
 	}
 
 	catppuccin.replace = {
-		a = { bg = C.red, fg = C.base, gui = "bold" },
+		a = { bg = C.mauve, fg = C.base, gui = "bold" },
 		b = { bg = C.surface0, fg = C.red },
 	}
 
