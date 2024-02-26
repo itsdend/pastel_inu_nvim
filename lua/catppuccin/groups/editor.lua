@@ -42,9 +42,9 @@ function M.get()
 		FloatTitle = { fg = C.subtext0 }, -- Title of floating windows
 		Pmenu = {
 			bg = (O.transparent_background and vim.o.pumblend == 0) and C.none or U.darken(C.surface0, 0.8, C.crust),
-			fg = C.text,
+			fg = C.blue,
 		}, -- Popup menu: normal item.
-		PmenuSel = { bg = C.surface1, style = { "bold" } }, -- Popup menu: selected item.
+		PmenuSel = { bg = C.pink, style = { "bold" } }, -- Popup menu: selected item.
 		PmenuSbar = { bg = C.surface1 }, -- Popup menu: scrollbar.
 		PmenuThumb = { bg = C.overlay0 }, -- Popup menu: Thumb of the scrollbar.
 		Question = { fg = C.blue }, -- |hit-enter| prompt and yes/no questions
