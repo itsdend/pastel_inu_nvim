@@ -42,7 +42,7 @@ function M.get()
 		FloatTitle = { fg = C.subtext0 }, -- Title of floating windows
 		Pmenu = {
 			bg = (O.transparent_background and vim.o.pumblend == 0) and C.none or U.darken(C.surface0, 0.8, C.crust),
-			fg = C.overlay2,
+			fg = C.text,
 		}, -- Popup menu: normal item.
 		PmenuSel = { bg = C.surface1, style = { "bold" } }, -- Popup menu: selected item.
 		PmenuSbar = { bg = C.surface1 }, -- Popup menu: scrollbar.
@@ -63,8 +63,8 @@ function M.get()
 		TabLineFill = {}, -- tab pages line, where there are no labels
 		TabLineSel = { fg = C.green, bg = C.surface1 }, -- tab pages line, active tab page label
 		Title = { fg = C.blue, style = { "bold" } }, -- titles for output from ":set all", ":autocmd" etc.
-		Visual = { bg = C.surface1, style = { "bold" } }, -- Visual mode selection
-		VisualNOS = { bg = C.surface1, style = { "bold" } }, -- Visual mode selection when vim is "Not Owning the Selection".
+		Visual = { bg = C.rosewater, style = { "bold" } }, -- Visual mode selection
+		VisualNOS = { bg = C.rosewater, style = { "bold" } }, -- Visual mode selection when vim is "Not Owning the Selection".
 		WarningMsg = { fg = C.yellow }, -- warning messages
 		Whitespace = { fg = C.surface1 }, -- "nbsp", "space", "tab" and "trail" in 'listchars'
 		WildMenu = { bg = C.overlay0 }, -- current match in 'wildmenu' completion
