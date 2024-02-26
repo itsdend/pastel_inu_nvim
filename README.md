@@ -844,7 +844,7 @@ mini = {
 <td>
 
 ```lua
-neotree = false
+neotree = true
 ```
 
 </td>

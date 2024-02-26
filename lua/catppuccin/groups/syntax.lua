@@ -26,7 +26,7 @@ function M.get()
 		Macro = { fg = C.mauve }, -- same as Define
 		PreCondit = { link = "PreProc" }, -- preprocessor #if, #else, #endif, etc.
 
-		StorageClass = { fg = C.yellow }, -- static, register, volatile, etc.
+		StorageClass = { fg = C.lavender }, -- static, register, volatile, etc.
 		Structure = { fg = C.yellow }, --  struct, union, enum, etc.
 		Special = { fg = C.pink }, -- (preferred) any special symbol
 		Type = { fg = C.yellow, style = O.styles.types or {} }, -- (preferred) int, long, char, etc.
