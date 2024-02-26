@@ -23,7 +23,7 @@ If you want to stay on nvim 0.7, either disable the integration or pin catppucci
 		["@constant.builtin"] = { fg = C.peach, style = O.styles.keywords or {} }, -- For constant that are built in the language: nil in Lua.
 		["@constant.macro"] = { link = "Macro" }, -- For constants that are defined by macros: NULL in C.
 
-		["@module"] = { fg = C.lavender, style = { "italic" } }, -- For identifiers referring to modules and namespaces.
+		["@module"] = { fg = C.text, style = { "italic" } }, -- For identifiers referring to modules and namespaces.
 		["@label"] = { link = "Label" }, -- For labels: label: in C and :label: in Lua.
 
 		-- Literals
@@ -182,6 +182,8 @@ If you want to stay on nvim 0.7, either disable the integration or pin catppucci
 		["@type.builtin.c"] = { fg = C.yellow, style = {} },
 		["@property.cpp"] = { fg = C.text },
 		["@type.builtin.cpp"] = { fg = C.yellow, style = {} },
+
+		--JSON
 
 		-- Misc
 		gitcommitSummary = { fg = C.rosewater, style = { "italic" } },

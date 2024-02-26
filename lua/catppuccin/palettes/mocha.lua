@@ -1,18 +1,18 @@
 return {
 	rosewater = "#f5e0dc",
 	flamingo = "#fc50b4", --variable
-	pink = "#f5c2e7",
+	pink = "#fc50b4",
 	mauve = "#FDFD97",	--keywords
-	red = "#f38ba8",
-	maroon = "#eba0ac",
+	red = "#fc50b4",
+	maroon = "#eb87b6",
 	peach = "#4fc8b7", --atom
 	yellow = "#f9e2af",
-	green = "#a6e3a1",
-	teal = "#94e2d5",
-	sky = "#89dceb",
-	sapphire = "#74c7ec",
+	green = "#4fc8b7",
+	teal = "#4fc8b7",
+	sky = "#7ac3ff",
+	sapphire = "#7ac3ff",
 	blue = "#7ac3ff", --function
-	lavender = "#b4befe",
+	lavender = "#d179ee",
 	text = "#eb87b6", --foreground
 	subtext1 = "#bac2de",
 	subtext0 = "#a6adc8",
