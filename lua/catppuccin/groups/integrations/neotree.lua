@@ -4,23 +4,23 @@ function M.get()
 	local active_bg = O.transparent_background and C.none or C.mantle
 	local inactive_bg = O.transparent_background and C.none or C.base
 	return {
-		NeoTreeDirectoryName = { fg = C.blue },
+		NeoTreeDirectoryName = { fg = C.pink },
 		NeoTreeDirectoryIcon = { fg = C.blue },
 		NeoTreeNormal = { fg = C.text, bg = active_bg },
 		NeoTreeNormalNC = { fg = C.text, bg = active_bg },
-		NeoTreeExpander = { fg = C.overlay0 },
-		NeoTreeIndentMarker = { fg = C.overlay0 },
+		NeoTreeExpander = { fg = C.text },
+		NeoTreeIndentMarker = { fg = C.text },
 		NeoTreeRootName = { fg = C.blue, style = { "bold" } },
-		NeoTreeSymbolicLinkTarget = { fg = C.pink },
+		NeoTreeSymbolicLinkTarget = { fg = C.rosewater },
 		NeoTreeModified = { fg = C.peach },
 
 		NeoTreeGitAdded = { fg = C.green },
 		NeoTreeGitConflict = { fg = C.red },
 		NeoTreeGitDeleted = { fg = C.rosewater },
 		NeoTreeGitIgnored = { fg = C.overlay0 },
-		NeoTreeGitModified = { fg = C.yellow },
+		NeoTreeGitModified = { fg = C.blue },
 		NeoTreeGitUnstaged = { fg = C.red },
-		NeoTreeGitUntracked = { fg = C.lavender },
+		NeoTreeGitUntracked = { fg = C.green },
 		NeoTreeGitStaged = { fg = C.green },
 
 		NeoTreeFloatBorder = { link = "FloatBorder" },
