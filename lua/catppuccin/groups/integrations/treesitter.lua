@@ -27,7 +27,7 @@ If you want to stay on nvim 0.7, either disable the integration or pin catppucci
 		["@label"] = { link = "Label" }, -- For labels: label: in C and :label: in Lua.
 
 		-- Literals
-		["@string"] = { link = "String" , style = "italic"}, -- For strings.
+		["@string"] = { link = "String" }, -- For strings.
 		["@string.regexp"] = { fg = C.peach, style = O.styles.strings or {} }, -- For regexes.
 		["@string.escape"] = { fg = C.pink, style = O.styles.strings or {} }, -- For escape characters within a string.
 		["@string.special"] = { link = "Special" }, -- other special strings (e.g. dates)
