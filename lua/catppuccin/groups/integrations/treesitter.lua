@@ -27,7 +27,7 @@ If you want to stay on nvim 0.7, either disable the integration or pin catppucci
 		["@label"] = { link = "Label" }, -- For labels: label: in C and :label: in Lua.
 
 		-- Literals
-		["@string"] = { link = "String" }, -- For strings.
+		["@string"] = { link = "String" , style = "italic"}, -- For strings.
 		["@string.regexp"] = { fg = C.peach, style = O.styles.strings or {} }, -- For regexes.
 		["@string.escape"] = { fg = C.pink, style = O.styles.strings or {} }, -- For escape characters within a string.
 		["@string.special"] = { link = "Special" }, -- other special strings (e.g. dates)
@@ -81,7 +81,7 @@ If you want to stay on nvim 0.7, either disable the integration or pin catppucci
 
 		-- Punctuation
 		["@punctuation.delimiter"] = { link = "Delimiter" }, -- For delimiters (e.g. `;` / `.` / `,`).
-		["@punctuation.bracket"] = { fg = C.overlay2 }, -- For brackets and parenthesis.
+		["@punctuation.bracket"] = { fg = C.text }, -- For brackets and parenthesis.
 		["@punctuation.special"] = { link = "Special" }, -- For special punctuation that does not fall in the categories before (e.g. `{}` in string interpolation).
 
 		-- Comment
@@ -120,7 +120,7 @@ If you want to stay on nvim 0.7, either disable the integration or pin catppucci
 		["@diff.delta"] = { link = "diffChanged" }, -- deleted text (for diff files)
 
 		-- Tags
-		["@tag"] = { fg = C.mauve }, -- Tags like html tag names.
+		["@tag"] = { fg = C.pink }, -- Tags like html tag names.
 		["@tag.attribute"] = { fg = C.teal, style = { "italic" } }, -- Tags like html tag names.
 		["@tag.delimiter"] = { fg = C.sky }, -- Tag delimiter like < > /
 

@@ -4,7 +4,7 @@ function M.get()
 	return {
 		Comment = { fg = C.overlay0, style = O.styles.comments }, -- just comments
 		SpecialComment = { link = "Special" }, -- special things inside a comment
-		Constant = { fg = C.peach }, -- (preferred) any constant
+		Constant = { fg = C.lavender }, -- (preferred) any constant
 		String = { fg = C.peach, style = O.styles.strings or {} }, -- a string constant: "this is a string"
 		Character = { fg = C.teal }, --  a character constant: 'c', '\n'
 		Number = { fg = C.peach, style = O.styles.numbers or {} }, --   a number constant: 234, 0xff
@@ -16,14 +16,14 @@ function M.get()
 		Conditional = { fg = C.mauve, style = O.styles.conditionals or {} }, --  if, then, else, endif, switch, etc.
 		Repeat = { fg = C.mauve, style = O.styles.loops or {} }, --   for, do, while, etc.
 		Label = { fg = C.sapphire }, --    case, default, etc.
-		Operator = { fg = C.sky, style = O.styles.operators or {} }, -- "sizeof", "+", "*", etc.
+		Operator = { fg = C.text, style = O.styles.operators or {} }, -- "sizeof", "+", "*", etc.
 		Keyword = { fg = C.mauve, style = O.styles.keywords or {} }, --  any other keyword
 		Exception = { fg = C.mauve, style = O.styles.keywords or {} }, --  try, catch, throw
 
 		PreProc = { fg = C.rosewater }, -- (preferred) generic Preprocessor
 		Include = { fg = C.mauve, style = O.styles.keywords or {} }, --  preprocessor #include
 		Define = { link = "PreProc" }, -- preprocessor #define
-		Macro = { fg = C.mauve }, -- same as Define
+		Macro = { fg = C.lavender }, -- same as Define
 		PreCondit = { link = "PreProc" }, -- preprocessor #if, #else, #endif, etc.
 
 		StorageClass = { fg = C.lavender }, -- static, register, volatile, etc.
@@ -33,7 +33,7 @@ function M.get()
 		Typedef = { link = "Type" }, --  A typedef
 		SpecialChar = { link = "Special" }, -- special character in a constant
 		Tag = { fg = C.lavender, style = { "bold" } }, -- you can use CTRL-] on this
-		Delimiter = { fg = C.overlay2 }, -- character that needs attention
+		Delimiter = { fg = C.text }, -- character that needs attention
 		Debug = { link = "Special" }, -- debugging statements
 
 		Underlined = { style = { "underline" } }, -- (preferred) text that stands out, HTML links
