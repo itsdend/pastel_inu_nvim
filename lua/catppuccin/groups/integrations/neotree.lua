@@ -4,8 +4,8 @@ function M.get()
 	local active_bg = O.transparent_background and C.none or C.mantle
 	local inactive_bg = O.transparent_background and C.none or C.base
 	return {
-		NeoTreeDirectoryName = { fg = C.pink },
-		NeoTreeDirectoryIcon = { fg = C.blue },
+		NeoTreeDirectoryName = { fg = C.text },
+		NeoTreeDirectoryIcon = { fg = C.pink },
 		NeoTreeNormal = { fg = C.text, bg = active_bg },
 		NeoTreeNormalNC = { fg = C.text, bg = active_bg },
 		NeoTreeExpander = { fg = C.text },
