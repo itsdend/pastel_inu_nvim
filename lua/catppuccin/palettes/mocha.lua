@@ -14,7 +14,7 @@ return {
 	blue = "#7ac3ff", --function
 	lavender = "#d179ee",
 	text = "#eb87b6", --foreground
-	selection = "#bac2de"
+	selection = "#bac2de",
 	subtext1 = "#bac2de",
 	subtext0 = "#a6adc8",
 	overlay2 = "#9399b2",
