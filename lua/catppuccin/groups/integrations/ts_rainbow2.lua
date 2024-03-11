@@ -8,7 +8,7 @@ function M.get()
 		TSRainbowOrange = { fg =   "#eb87b6"},
 		TSRainbowGreen = { fg =  "#4fc8b7" },
 		TSRainbowViolet = { fg =  "#f9e2af" },
-		TSRainbowCyan = { fg = #FDFD97 },
+		TSRainbowCyan = { fg ="#FDFD97" },
 	}
 end
 
