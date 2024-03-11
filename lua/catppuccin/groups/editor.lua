@@ -70,7 +70,7 @@ function M.get()
 		WildMenu = { bg = C.overlay0 }, -- current match in 'wildmenu' completion
 		WinBar = { fg = C.rosewater },
 		WinBarNC = { link = "WinBar" },
-		WinSeparator = { fg = O.transparent_background and C.surface0 or C.text },
+		WinSeparator = { fg = O.transparent_background and C.text or C.text },
 	}
 end
 
