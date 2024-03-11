@@ -2,13 +2,13 @@ local M = {}
 
 function M.get()
 	return {
-		TSRainbowRed = { fg = C.red },
-		TSRainbowYellow = { fg = C.yellow },
-		TSRainbowBlue = { fg = C.blue },
-		TSRainbowOrange = { fg = C.peach },
-		TSRainbowGreen = { fg = C.green },
-		TSRainbowViolet = { fg = C.mauve },
-		TSRainbowCyan = { fg = C.teal },
+		TSRainbowRed = { fg =  "#d179ee" },
+		TSRainbowYellow = { fg = "#7ac3ff" },
+		TSRainbowBlue = { fg =  "#fc50b4" },
+		TSRainbowOrange = { fg =   "#eb87b6"},
+		TSRainbowGreen = { fg =  "#4fc8b7" },
+		TSRainbowViolet = { fg =  "#f9e2af" },
+		TSRainbowCyan = { fg = #FDFD97 },
 	}
 end
 
