@@ -14,14 +14,14 @@ function M.get()
 		Directory = { fg = C.blue }, -- directory names (and other special names in listings)
 		EndOfBuffer = { fg = O.show_end_of_buffer and C.surface1 or C.base }, -- filler lines (~) after the end of the buffer.  By default, this is highlighted like |hl-NonText|.
 		ErrorMsg = { fg = C.red, style = { "bold", "italic" } }, -- error messages on the command line
-		VertSplit = { fg = O.transparent_background and C.surface1 or C.crust }, -- the column separating vertically split windows
+		VertSplit = { fg = O.transparent_background and C.surface0 or C.crust }, -- the column separating vertically split windows
 		Folded = { fg = C.blue, bg = O.transparent_background and C.none or C.surface1 }, -- line used for closed folds
 		FoldColumn = { fg = C.overlay0 }, -- 'foldcolumn'
 		SignColumn = { fg = C.surface1 }, -- column where |signs| are displayed
 		SignColumnSB = { bg = C.crust, fg = C.surface1 }, -- column where |signs| are displayed
 		Substitute = { bg = C.surface1, fg = U.vary_color({ latte = C.red }, C.pink) }, -- |:substitute| replacement text highlighting
 		LineNr = { fg = C.text }, -- Line number for ":number" and ":#" commands, and when 'number' or 'relativenumber' option is set.
-		CursorLineNr = { fg = C.lavender }, -- Like LineNr when 'cursorline' or 'relativenumber' is set for the cursor line. highlights the number in numberline.
+		CursorLineNr = { fg = C.blue }, -- Like LineNr when 'cursorline' or 'relativenumber' is set for the cursor line. highlights the number in numberline.
 		MatchParen = { fg = C.yellow, bg = C.lavender, style = { "bold" } }, -- The character under the cursor or just before it, if it is a paired bracket, and its match. |pi_paren.txt|
 		ModeMsg = { fg = C.text, style = { "bold" } }, -- 'showmode' message (e.g., "-- INSERT -- ")
 		-- MsgArea = { fg = C.text }, -- Area for messages and cmdline, don't set this highlight because of https://github.com/neovim/neovim/issues/17832
@@ -70,7 +70,7 @@ function M.get()
 		WildMenu = { bg = C.overlay0 }, -- current match in 'wildmenu' completion
 		WinBar = { fg = C.rosewater },
 		WinBarNC = { link = "WinBar" },
-		WinSeparator = { fg = O.transparent_background and C.surface1 or C.crust },
+		WinSeparator = { fg = O.transparent_background and C.surface0 or C.crust },
 	}
 end
 
