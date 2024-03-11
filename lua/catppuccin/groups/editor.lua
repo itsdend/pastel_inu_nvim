@@ -63,8 +63,8 @@ function M.get()
 		TabLineFill = {}, -- tab pages line, where there are no labels
 		TabLineSel = { fg = C.green, bg = C.surface1 }, -- tab pages line, active tab page label
 		Title = { fg = C.blue, style = { "bold" } }, -- titles for output from ":set all", ":autocmd" etc.
-		Visual = { bg = C.lavender, style = { "bold" } }, -- Visual mode selection
-		VisualNOS = { bg = C.lavender, style = { "bold" } }, -- Visual mode selection when vim is "Not Owning the Selection".
+		Visual = { bg = C.selection, style = { "bold" } }, -- Visual mode selection
+		VisualNOS = { bg = C.selection, style = { "bold" } }, -- Visual mode selection when vim is "Not Owning the Selection".
 		WarningMsg = { fg = C.yellow }, -- warning messages
 		Whitespace = { fg = C.surface1 }, -- "nbsp", "space", "tab" and "trail" in 'listchars'
 		WildMenu = { bg = C.overlay0 }, -- current match in 'wildmenu' completion
