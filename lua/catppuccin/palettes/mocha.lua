@@ -22,7 +22,7 @@ return {
 	overlay0 = "#699dad", --comments
 	surface2 = "#585b70",
 	surface1 = "#45475a",
-	surface0 = "#313244",
+	surface0 = "#24273a", -- background ??
 	base = "#1e1e2e",
 	mantle = "#181825",
 	crust = "#11111b",
