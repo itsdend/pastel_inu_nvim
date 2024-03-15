@@ -5,9 +5,9 @@ function M.get()
 		Comment = { fg = C.overlay0, style = O.styles.comments }, -- just comments
 		SpecialComment = { link = "Special" }, -- special things inside a comment
 		Constant = { fg = C.teal }, -- (preferred) any constant
-		String = { fg = C.teal, style = O.styles.strings or {} }, -- a string constant: "this is a string"
+		String = { fg = C.peach, style = O.styles.strings or {} }, -- a string constant: "this is a string"
 		Character = { fg = C.teal }, --  a character constant: 'c', '\n'
-		Number = { fg = C.teal, style = O.styles.numbers or {} }, --   a number constant: 234, 0xff
+		Number = { fg = C.peach, style = O.styles.numbers or {} }, --   a number constant: 234, 0xff
 		Float = { link = "Number" }, --    a floating point constant: 2.3e10
 		Boolean = { fg = C.peach, style = O.styles.booleans or {} }, --  a boolean constant: TRUE, false
 		Identifier = { fg = C.flamingo, style = O.styles.variables or {} }, -- (preferred) any variable name
@@ -16,7 +16,7 @@ function M.get()
 		Conditional = { fg = C.mauve, style = O.styles.conditionals or {} }, --  if, then, else, endif, switch, etc.
 		Repeat = { fg = C.mauve, style = O.styles.loops or {} }, --   for, do, while, etc.
 		Label = { fg = C.sapphire }, --    case, default, etc.
-		Operator = { fg = C.green, style = O.styles.operators or {} }, -- "sizeof", "+", "*", etc.
+		Operator = { fg = C.text, style = O.styles.operators or {} }, -- "sizeof", "+", "*", etc.
 		Keyword = { fg = C.mauve, style = O.styles.keywords or {} }, --  any other keyword
 		Exception = { fg = C.mauve, style = O.styles.keywords or {} }, --  try, catch, throw
 
