@@ -4,7 +4,7 @@ function M.get()
 	if O.integrations.telescope.style == "nvchad" then
 		return {
 			TelescopeBorder = {
-				fg = O.transparent_background and C.blue or C.mantle,
+				fg = O.transparent_background and C.red or C.mantle,
 				bg = O.transparent_background and C.none or C.mantle,
 			},
 			TelescopeMatching = { fg = C.blue },
@@ -12,7 +12,7 @@ function M.get()
 				bg = O.transparent_background and C.none or C.mantle,
 			},
 			TelescopePromptBorder = {
-				fg = O.transparent_background and C.blue or C.surface0,
+				fg = O.transparent_background and C.red or C.surface0,
 				bg = O.transparent_background and C.none or C.surface0,
 			},
 			TelescopePromptNormal = {

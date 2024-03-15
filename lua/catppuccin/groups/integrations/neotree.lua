@@ -10,7 +10,7 @@ function M.get()
 		NeoTreeNormalNC = { fg = C.text, bg = active_bg },
 		NeoTreeExpander = { fg = C.text },
 		NeoTreeIndentMarker = { fg = C.text },
-		NeoTreeRootName = { fg = C.blue, style = { "bold" } },
+		NeoTreeRootName = { fg = C.red, style = { "bold" } },
 		NeoTreeSymbolicLinkTarget = { fg = C.rosewater },
 		NeoTreeModified = { fg = C.peach },
 
