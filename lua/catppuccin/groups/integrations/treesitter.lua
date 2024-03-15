@@ -120,9 +120,9 @@ If you want to stay on nvim 0.7, either disable the integration or pin catppucci
 		["@diff.delta"] = { link = "diffChanged" }, -- deleted text (for diff files)
 
 		-- Tags
-		["@tag"] = { fg = C.mauve }, -- Tags like html tag names.
-		["@tag.attribute"] = { fg = C.teal, style = { "italic" } }, -- Tags like html tag names.
-		["@tag.delimiter"] = { fg = C.sky }, -- Tag delimiter like < > /
+		["@tag"] = { fg = C.red }, -- Tags like html tag names.
+		["@tag.attribute"] = { fg = C.sky, style = { "italic" } }, -- Tags like html tag names.
+		["@tag.delimiter"] = { fg = C.lavender }, -- Tag delimiter like < > /
 
 		-- Misc
 		["@error"] = { link = "Error" },
@@ -179,9 +179,9 @@ If you want to stay on nvim 0.7, either disable the integration or pin catppucci
 		["@function.method.call.php"] = { link = "Function" },
 
 		-- C/CPP
-		["@type.builtin.c"] = { fg = C.yellow, style = {} },
+		["@type.builtin.c"] = { fg = C.lavender, style = {} },
 		["@property.cpp"] = { fg = C.text },
-		["@type.builtin.cpp"] = { fg = C.yellow, style = {} },
+		["@type.builtin.cpp"] = { fg = C.lavender, style = {} },
 
 		--JSON
 
