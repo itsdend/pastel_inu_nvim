@@ -2,13 +2,13 @@ local M = {}
 
 function M.get()
 	return {
-		RainbowDelimiterRed = { fg = C.red },
-		RainbowDelimiterYellow = { fg = C.yellow },
-		RainbowDelimiterBlue = { fg = C.blue },
-		RainbowDelimiterOrange = { fg = C.peach },
-		RainbowDelimiterGreen = { fg = C.green },
-		RainbowDelimiterViolet = { fg = C.mauve },
-		RainbowDelimiterCyan = { fg = C.teal },
+		RainbowDelimiterRed ={ fg =  "#d179ee" },
+		RainbowDelimiterYellow { fg = "#7ac3ff"  },
+		RainbowDelimiterBlue = {fg =  "#fc50b4" },
+		RainbowDelimiterOrange =  { fg =   "#eb87b6"},
+		RainbowDelimiterGreen = { fg =  "#4fc8b7" },
+		RainbowDelimiterViolet = { fg =  "#f9e2af"},
+		RainbowDelimiterCyan = {fg ="#FDFD97" },
 	}
 end
 
