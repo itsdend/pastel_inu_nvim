@@ -52,7 +52,7 @@ If you want to stay on nvim 0.7, either disable the integration or pin catppucci
 
 		-- Functions
 		["@function"] = { link = "Function" }, -- For function (calls and definitions).
-		["@function.builtin"] = { fg = C.peach, style = O.styles.functions or {} }, -- For builtin functions: table.insert in Lua.
+		["@function.builtin"] = { fg = C.sapphire, style = O.styles.functions or {} }, -- For builtin functions: table.insert in Lua.
 		["@function.call"] = { link = "Function" }, -- function calls
 		["@function.macro"] = { fg = C.teal, style = O.styles.functions or {} }, -- For macro defined functions (calls and definitions): each macro_rules in Rust.
 
