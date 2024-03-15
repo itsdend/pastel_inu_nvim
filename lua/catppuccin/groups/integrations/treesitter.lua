@@ -48,7 +48,7 @@ If you want to stay on nvim 0.7, either disable the integration or pin catppucci
 		["@type.qualifier"] = { link = "Keyword" }, -- type qualifiers (e.g. `const`)
 
 		["@attribute"] = { link = "Constant" }, -- attribute annotations (e.g. Python decorators)
-		["@property"] = { fg = C.lavender, style = O.styles.properties or {} }, -- Same as TSField.
+		["@property"] = { fg = C.red, style = O.styles.properties or {} }, -- Same as TSField.
 
 		-- Functions
 		["@function"] = { link = "Function" }, -- For function (calls and definitions).
