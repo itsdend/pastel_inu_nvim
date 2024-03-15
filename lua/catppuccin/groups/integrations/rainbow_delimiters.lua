@@ -3,7 +3,7 @@ local M = {}
 function M.get()
 	return {
 		RainbowDelimiterRed ={ fg =  "#d179ee" },
-		RainbowDelimiterYellow { fg = "#7ac3ff"  },
+		RainbowDelimiterYellow =  { fg = "#7ac3ff"  },
 		RainbowDelimiterBlue = {fg =  "#fc50b4" },
 		RainbowDelimiterOrange =  { fg =   "#eb87b6"},
 		RainbowDelimiterGreen = { fg =  "#4fc8b7" },
