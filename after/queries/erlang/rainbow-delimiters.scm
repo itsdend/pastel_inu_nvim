@@ -1,3 +1,4 @@
+
 (pp_define
   "(" @delimiter
   ")" @delimiter @sentinel) @container
@@ -34,13 +35,11 @@
   "(" @delimiter
   ")" @delimiter @sentinel) @container
 
-(export_attribute
-  "[" @delimiter
-  "]" @delimiter @sentinel) @container
-
+(export_type_attribute
+  "(" @delimiter
+  ")" @delimiter @sentinel) @container
 
 (record_decl
   "(" @delimiter
   ")" @delimiter @sentinel) @container
-
 
