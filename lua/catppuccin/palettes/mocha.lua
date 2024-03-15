@@ -8,7 +8,7 @@ return {
 	peach = "#4fc8b7", --atom
 	yellow = "#f9e2af",
 	green = "#4fc8b7",
-	teal = "#e097d3",
+	teal = "#f38ba8",
 	sky = "#7ac3ff",
 	sapphire = "#7ac3ff",
 	blue = "#7ac3ff", --function
