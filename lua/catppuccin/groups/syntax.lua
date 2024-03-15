@@ -16,7 +16,7 @@ function M.get()
 		Conditional = { fg = C.mauve, style = O.styles.conditionals or {} }, --  if, then, else, endif, switch, etc.
 		Repeat = { fg = C.mauve, style = O.styles.loops or {} }, --   for, do, while, etc.
 		Label = { fg = C.sapphire }, --    case, default, etc.
-		Operator = { fg = C.lavender, style = O.styles.operators or {} }, -- "sizeof", "+", "*", etc.
+		Operator = { fg = C.text, style = O.styles.operators or {} }, -- "sizeof", "+", "*", etc.
 		Keyword = { fg = C.mauve, style = O.styles.keywords or {} }, --  any other keyword
 		Exception = { fg = C.mauve, style = O.styles.keywords or {} }, --  try, catch, throw
 
