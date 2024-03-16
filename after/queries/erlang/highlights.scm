@@ -14,4 +14,4 @@
 ty: (atom) @constant
 ( map_field key: (atom) @constant)
 ( map_field value: (atom) @constant)
-(list exprs(atom) @constant )
+(list exprs: (atom) @constant )
