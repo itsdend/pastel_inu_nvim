@@ -43,7 +43,7 @@ If you want to stay on nvim 0.7, either disable the integration or pin catppucci
 
 		-- Types
 		["@type"] = { link = "Type" }, -- For types.
-		["@type.builtin"] = { fg = C.yellow, style = O.styles.properties or { "italic" } }, -- For builtin types.
+		["@type.builtin"] = { fg = C.text, style = O.styles.properties or { "italic" } }, -- For builtin types.
 		["@type.definition"] = { link = "Type" }, -- type definitions (e.g. `typedef` in C)
 		["@type.qualifier"] = { link = "Keyword" }, -- type qualifiers (e.g. `const`)
 
@@ -143,11 +143,11 @@ If you want to stay on nvim 0.7, either disable the integration or pin catppucci
 		["@constant.java"] = { fg = C.teal },
 
 		-- css
-		["@property.css"] = { fg = C.lavender },
-		["@property.id.css"] = { fg = C.blue },
-		["@property.class.css"] = { fg = C.yellow },
-		["@type.css"] = { fg = C.lavender },
-		["@type.tag.css"] = { fg = C.mauve },
+		["@property.css"] = { fg = C.blue },
+		["@property.id.css"] = { fg = C.red },
+		["@property.class.css"] = { fg = C.text },
+		["@type.css"] = { fg = C.blue },
+		["@type.tag.css"] = { fg = C.red },
 		["@string.plain.css"] = { fg = C.peach },
 		["@number.css"] = { fg = C.peach },
 
@@ -184,6 +184,10 @@ If you want to stay on nvim 0.7, either disable the integration or pin catppucci
 		["@type.builtin.cpp"] = { fg = C.lavender, style = {} },
 
 		--JSON
+		["@property.json"] = { fg = C.red },
+		["@number.json"] = { fg = C.sky },
+		["@string.json"] = { fg = C.sky },
+		["@boolean.json"] = { fg = C.sky },
 
 		-- Misc
 		gitcommitSummary = { fg = C.rosewater, style = { "italic" } },
