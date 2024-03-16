@@ -11,3 +11,4 @@
 (export_type_attribute (fa (atom) @type)) @keyword.import.erlang
 (record_decl) @keyword.import.erlang
 (type_alias) @keyword.import.erlang
+(type_alias ty: (atom @constant))
