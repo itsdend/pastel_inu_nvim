@@ -2,7 +2,7 @@ return {
 	rosewater = "#f5e0dc",
 	flamingo = "#fc50b4", --variable
 	pink = "#fc50b4",
-	mauve = "#f9e2af",	--keywords
+	mauve = "#dda2f6",	--keywords
 	red = "#fc50b4",
 	maroon = "#eb87b6",
 	peach = "#4fc8b7", --atom
