@@ -1,5 +1,5 @@
 return {
-	rosewater = "#8b1248", -- ruby neo start
+	rosewater = "#ff0884", -- ruby neo start
 	flamingo = "#fc50b4", --variable
 	pink = "#fc50b4",
 	mauve = "#dda2f6",	--keywords
