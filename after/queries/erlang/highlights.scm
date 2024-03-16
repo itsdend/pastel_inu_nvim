@@ -12,3 +12,6 @@
 (record_decl) @keyword.import.erlang
 (type_alias) @keyword.import.erlang
 ty: (atom) @constant
+( map_field key: (atom) @constant)
+( map_field value: (atom) @constant)
+(list exprs(atom) @constant )
