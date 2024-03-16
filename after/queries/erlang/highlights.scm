@@ -5,5 +5,5 @@
 (callback (atom) @function) @keyword.import.erlang
 (function_clause
   name: (atom) @type)
-(spec) @module
+(spec fun:(atom) @module ty:(atom) @constant) @module
 
