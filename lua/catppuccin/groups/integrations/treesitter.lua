@@ -145,7 +145,7 @@ If you want to stay on nvim 0.7, either disable the integration or pin catppucci
 		-- css
 		["@property.css"] = { fg = C.blue },
 		["@property.id.css"] = { fg = C.red },
-		["@property.class.css"] = { fg = C.text },
+		["@property.class.css"] = { fg = C.red },
 		["@type.css"] = { fg = C.blue },
 		["@type.tag.css"] = { fg = C.red },
 		["@string.plain.css"] = { fg = C.peach },
