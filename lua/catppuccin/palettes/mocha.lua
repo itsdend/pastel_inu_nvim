@@ -1,8 +1,8 @@
 return {
-	rosewater = "#dda2f6", -- ruby neo start
+	rosewater = "#fa6ac4", -- ruby neo start
 	flamingo = "#fc50b4", --variable
 	pink = "#fc50b4",
-	mauve = "#dda2f6",	--keywords
+	mauve = "#fa6ac4",	--keywords
 	red = "#fc50b4",
 	maroon = "#eb87b6",
 	peach = "#4fc8b7", --atom
