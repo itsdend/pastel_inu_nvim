@@ -26,10 +26,10 @@ function M.get()
 		Macro = { fg = C.pale }, -- same as Define
 		PreCondit = { link = "PreProc" }, -- preprocessor #if, #else, #endif, etc.
 
-		StorageClass = { fg = C.pale }, -- static, register, volatile, etc.
-		Structure = { fg = C.pale }, --  struct, union, enum, etc.
+		StorageClass = { fg = C.mauve }, -- static, register, volatile, etc.
+		Structure = { fg = C.mauve }, --  struct, union, enum, etc.
 		Special = { fg = C.pink }, -- (preferred) any special symbol
-		Type = { fg = C.pale, style = O.styles.types or {} }, -- (preferred) int, long, char, etc.
+		Type = { fg = C.mauve, style = O.styles.types or {} }, -- (preferred) int, long, char, etc.
 		Typedef = { link = "Type" }, --  A typedef
 		SpecialChar = { link = "Special" }, -- special character in a constant
 		Tag = { fg = C.lavender, style = { "bold" } }, -- you can use CTRL-] on this
