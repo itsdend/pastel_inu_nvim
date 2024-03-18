@@ -4,7 +4,7 @@
 (tuple (atom) @constant) 
 (callback (atom) @function) @keyword.import.erlang
 (function_clause
-  name: (atom) @function.decl.erlang)
+  name: (atom) @function.decl)
 (spec fun: (atom) @module  ) @module
 (spec sigs: (type_sig (atom) @constant) )
 (pipe (atom) @constant)
