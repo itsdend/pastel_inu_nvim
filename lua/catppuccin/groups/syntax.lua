@@ -23,13 +23,13 @@ function M.get()
 		PreProc = { fg = C.rosewater }, -- (preferred) generic Preprocessor
 		Include = { fg = C.mauve, style = O.styles.keywords or {} }, --  preprocessor #include
 		Define = { link = "PreProc" }, -- preprocessor #define
-		Macro = { fg = C.lavender }, -- same as Define
+		Macro = { fg = C.pale }, -- same as Define
 		PreCondit = { link = "PreProc" }, -- preprocessor #if, #else, #endif, etc.
 
-		StorageClass = { fg = C.lavender }, -- static, register, volatile, etc.
-		Structure = { fg = C.lavender }, --  struct, union, enum, etc.
+		StorageClass = { fg = C.pale }, -- static, register, volatile, etc.
+		Structure = { fg = C.pale }, --  struct, union, enum, etc.
 		Special = { fg = C.pink }, -- (preferred) any special symbol
-		Type = { fg = C.lavender, style = O.styles.types or {} }, -- (preferred) int, long, char, etc.
+		Type = { fg = C.pale, style = O.styles.types or {} }, -- (preferred) int, long, char, etc.
 		Typedef = { link = "Type" }, --  A typedef
 		SpecialChar = { link = "Special" }, -- special character in a constant
 		Tag = { fg = C.lavender, style = { "bold" } }, -- you can use CTRL-] on this
