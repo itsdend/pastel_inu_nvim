@@ -16,7 +16,6 @@ ty: (atom) @constant
 ( map_field value: (atom) @constant)
 (list exprs: (atom) @constant )
 (external_fun module: (module name: (atom) @module))
-(export_attribute funs: (fa fun: (atom) @function.decl))
-(opaque (type_name (atom) @keyword.type)) @keyword.import
+(opaque (type_name (atom) @type)) @keyword.import
 module: (var) @module
 
