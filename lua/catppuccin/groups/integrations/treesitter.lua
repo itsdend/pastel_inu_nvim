@@ -189,6 +189,8 @@ If you want to stay on nvim 0.7, either disable the integration or pin catppucci
 		["@string.json"] = { fg = C.sky },
 		["@boolean.json"] = { fg = C.sky },
 
+		["@function.decl.erlang"] = {fd = C.lavender},
+
 		-- Misc
 		gitcommitSummary = { fg = C.rosewater, style = { "italic" } },
 		zshKSHFunction = { link = "Function" },
