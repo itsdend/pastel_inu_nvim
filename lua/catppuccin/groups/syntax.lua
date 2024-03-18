@@ -23,7 +23,7 @@ function M.get()
 		PreProc = { fg = C.rosewater }, -- (preferred) generic Preprocessor
 		Include = { fg = C.rosewater, style = O.styles.keywords or {} }, --  preprocessor #include
 		Define = { link = "PreProc" }, -- preprocessor #define
-		Macro = { fg = C.pale }, -- same as Define
+		Macro = { fg = C.mauve }, -- same as Define
 		PreCondit = { link = "PreProc" }, -- preprocessor #if, #else, #endif, etc.
 
 		StorageClass = { fg = C.mauve }, -- static, register, volatile, etc.
