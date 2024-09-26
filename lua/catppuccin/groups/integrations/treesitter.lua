@@ -43,12 +43,12 @@ If you want to stay on nvim 0.7, either disable the integration or pin catppucci
 
 		-- Types
 		["@type"] = { link = "Type" }, -- For types.
-		["@type.builtin"] = { fg = C.text, style = O.styles.properties or { "italic" } }, -- For builtin types.
+		["@type.builtin"] = { fg = C.mauve, style = O.styles.properties or { "italic" } }, -- For builtin types.
 		["@type.definition"] = { link = "Type" }, -- type definitions (e.g. `typedef` in C)
 		["@type.qualifier"] = { link = "Keyword" }, -- type qualifiers (e.g. `const`)
 
 		["@attribute"] = { link = "Constant" }, -- attribute annotations (e.g. Python decorators)
-		["@property"] = { fg = C.text, style = O.styles.properties or {} }, -- Same as TSField.
+		["@property"] = { fg = C.flamingo, style = O.styles.properties or {} }, -- Same as TSField.
 
 		-- Functions
 		["@function"] = { link = "Function" }, -- For function (calls and definitions).
@@ -179,9 +179,8 @@ If you want to stay on nvim 0.7, either disable the integration or pin catppucci
 		["@function.method.call.php"] = { link = "Function" },
 
 		-- C/CPP
-		["@type.builtin.c"] = { fg = C.lavender, style = {} },
-		["@property.cpp"] = { fg = C.text },
-		["@type.builtin.cpp"] = { fg = C.lavender, style = {} },
+		["@property.cpp"] = { fg = C.red },
+		["@property.c"] = { fg = C.red },
 
 		--JSON
 		["@property.json"] = { fg = C.red },

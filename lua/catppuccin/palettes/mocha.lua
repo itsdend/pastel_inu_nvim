@@ -1,20 +1,20 @@
 return {
-	rosewater = "#fa6ac4", -- ruby neo start
+	rosewater = "#f7aa1c", -- ruby neo star
 	flamingo = "#fc50b4", --variable
 	pink = "#fc50b4",
 	mauve = "#dda2f6",	--keywords
-	keyword = "#e3e5f0",
+	keyword = "#e3e5f0", -- keywords like try..catch
 	red = "#fc50b4",
 	pale = "#fa6ac4",
 	maroon = "#eb87b6",
-	peach = "#4fc8b7", --atom
+	peach = "#4fc8b7", --atom, string, numbs
 	yellow = "#f9e2af",
 	green = "#4fc8b7",
 	teal = "#4fc8b7",
 	sky = "#7ac3ff",
 	sapphire = "#7ac3ff",
 	blue = "#7ac3ff", --function
-	lavender = "#d179ee",
+	lavender = "#d179ee", -- fun definition
 	text = "#eb87b6", --foreground
 	selection = "#bac2de",
 	subtext1 = "#bac2de",

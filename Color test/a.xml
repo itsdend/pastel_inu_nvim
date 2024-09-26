@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<library >
+    <book>
+        <title>Introduction to XML</title>
+        <author>John Doe</author>
+        <publication_year>2022</publication_year>
+        <isbn>1234567890</isbn>
+    </book>
+
+    <book>
+        <title>Web Development Basics</title>
+        <author>Jane Smith</author>
+        <publication_year>2021</publication_year>
+        <isbn>0987654321</isbn>
+    </book>
+
+    <magazine>
+        <title>Tech Trends</title>
+        <issue_number>25</issue_number>
+        <publication_month>April</publication_month>
+        <publication_year>2022</publication_year>
+    </magazine>
+</library>
