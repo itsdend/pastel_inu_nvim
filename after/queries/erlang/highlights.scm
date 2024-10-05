@@ -19,3 +19,22 @@ ty: (atom) @constant
 (opaque (type_name (atom) @type)) @keyword.import
 module: (var) @module
 
+;; Conceals for Erlang operators and keywords
+
+;; Operators concealment
+(("=<" @operator) (#set! conceal "≤"))
+((">=" @operator) (#set! conceal "≥"))
+(("=:=" @operator) (#set! conceal "≡"))
+(("=/=" @operator) (#set! conceal "≢"))
+(("->" @operator) (#set! conceal "→"))
+(("=>" @operator) (#set! conceal "⇒"))
+(("::" @operator) (#set! conceal "∷"))
+
+;; Conditional and logical operators
+(("not" @keyword) (#set! conceal "¬"))
+(("orelse" @keyword) (#set! conceal "∨"))
+(("andalso" @keyword) (#set! conceal "∧"))
+
+;; Function keyword concealment
+(("fun" @keyword) (#set! conceal "λ"))
+
